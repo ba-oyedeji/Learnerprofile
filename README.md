@@ -1,5 +1,5 @@
 # Learnerprofile
- Learning how to code
+ Hi there! I am Learning how to code
  
  
  ## About me
