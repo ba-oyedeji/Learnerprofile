@@ -4,6 +4,7 @@
  
  ## About me
 Hello, my name is a Anthonia, I am a currently exploring different programming languages. 
+
 I am currently learning:
  - How to utilize SQL,
  - learning how to code with Python 
