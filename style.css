@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+	font-family: 'Open Sans', sans-serif;}
+.vertical {
+		border-right: 6px #071755 double ;
+		height: 400px;
+	  }
+.hero{
+	background: #f5ede8;
+	color: #585153;
+}
+
+
+.resume{
+	color: #ecb38f;
+}
+
+.nav-link:hover{
+	color: #ecb38f;
+	text-decoration: underline double;
+    text-decoration-color: #ecb38f;
+    -o-transition:.4s;
+    -ms-transition:.4s;
+    -moz-transition:.4s;
+    -webkit-transition:.4s;
+    transition:.4s;
+}
+
+a:active {
+  
+	color: #ecb38f;
+	text-decoration: underline double;
+    text-decoration-color: #ecb38f;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 60px;
+}
+	
+/*main*/
+.display-1{
+	color: #640d14;
+}
+.spacer{
+	padding: 12rem;
+}
+
+.banner{
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+
+}
+.aboutme {
+height: 100vh;
+width: 100%;
+padding-top: 100px;
+background: #f5ede8;
+	color: #585153;
+
+}
+img.profile {
+	border-radius: 15%;
+	height: auto;
+	max-width: 100%;
+	padding-left: 6rem;
+	border-color: #640d14;
+	
+	
+  }
+ 
+  
+  .intro{
+	background: #f5ede8;
+	color: #585153;
+  }
+  
+  .spacer,.me{
+	padding: 5rem
+}
+
+.projects{
+	width:100%;
+	height: 100vh;
+}
+
