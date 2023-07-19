@@ -13,6 +13,16 @@
 	background: #f5ede8;
 	color: #585153;
 }
+.navbar{
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+background-color: transparent;
+}
 
 
 .resume{
@@ -36,13 +46,6 @@ a:active {
 	text-decoration: underline double;
     text-decoration-color: #ecb38f;
 }
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	padding-top: 60px;
-}
-	
 /*main*/
 .display-1{
 	color: #640d14;

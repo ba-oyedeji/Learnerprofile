@@ -1,5 +1,9 @@
 
 /* LIST */
+*{
+    background-color: #f5ede8;
+   
+}
 ul {
     list-style: none;
     }
@@ -9,25 +13,37 @@ ul {
     top: -9999px;
     left: -9999px;
     }
+   .labelcolor
+   {
+    background-color: #640d14;
+   }
     label {
     display: block;
     float: left;
     height: 100vh;
     width: 20px;
     overflow: hidden;
-    background: rgba(34,46,85);
+    background: #f5ede8;
+    color: #f5ede8;
     text-align: center;
     font-size: 14px;
     line-height: 50px;
     -webkit-transition: background 300ms ease;
     transition: background 300ms ease;
     }
+    .spacer2{
+        padding: 5rem;
+    }
+    u{
+        background-color: #640d14;
+        text-decoration: wavy;
+    }
     li:nth-child(even) > input + label {
-    background: #3a4059;
+    background: #f5ede8;
     }
     label:hover,
     li:nth-child(even) > input + label:hover {
-    background: #0c0e0f;
+    background: #f5ede8;
     color: #fff;
     cursor: pointer;
     }
