@@ -14,13 +14,13 @@
 	color: #585153;
 }
 .navbar{
-position: fixed;
+	position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 0px;
 background-color: transparent;
 }
 
@@ -38,6 +38,17 @@ background-color: transparent;
     -moz-transition:.4s;
     -webkit-transition:.4s;
     transition:.4s;
+}
+.dropdown-item:active{
+	color: #ecb38f;
+
+}
+.dropdown-item:hover{
+	color: #ecb38f;
+	background-color: transparent;
+}
+.nav-link dropdown-toggle:active{
+	background-color: transparent;
 }
 
 a:active {
@@ -66,10 +77,10 @@ width: 100%;
 padding-top: 100px;
 background: #f5ede8;
 	color: #585153;
-
+padding-right: 100px;
 }
 img.profile {
-	border-radius: 15%;
+	border-radius: 55%;
 	height: auto;
 	max-width: 100%;
 	padding-left: 6rem;
@@ -78,7 +89,9 @@ img.profile {
 	
   }
  
-  
+  .skills{
+	padding-left: 180px;
+  }
   .intro{
 	background: #f5ede8;
 	color: #585153;
